@@ -96,10 +96,8 @@ class TicTacToe
     won? || draw?
   end
   
-  def winner
-    if won?
-      @board[won?[0]]
-    end
+  def winner  
+    @board[won?[0]] if won?
   end
   
   def player
