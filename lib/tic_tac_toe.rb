@@ -85,7 +85,7 @@ class TicTacToe
   end
   
   def full?
-    @board.include?(" ")
+    @board.none?(" ")
   end
   
   def draw?
