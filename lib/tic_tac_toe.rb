@@ -96,6 +96,10 @@ class TicTacToe
     won? || draw?
   end
   
+  def winner
+    
+  end
+  
   def player
     
   end
