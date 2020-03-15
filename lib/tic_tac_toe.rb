@@ -79,7 +79,8 @@ class TicTacToe
         o_spaces << i
       end
     end
-    WIN_COMBINATIONS.select { |win| (win & x_spaces == x_spaces) || (win & o_spaces == o_spaces)
+    puts o_spaces
+    puts x_spaces
   end
   
 
