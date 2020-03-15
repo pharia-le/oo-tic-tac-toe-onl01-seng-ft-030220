@@ -79,7 +79,9 @@ class TicTacToe
         o_spaces << i
       end
     end
-    binding.pry
+    WIN_COMBINATIONS.detect do |win|
+      (win - x_spaces).empty? || (win - o_spaces).empty?
+    end
   end
   
 
