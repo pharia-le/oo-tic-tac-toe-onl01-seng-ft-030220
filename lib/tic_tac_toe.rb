@@ -85,7 +85,7 @@ class TicTacToe
   end
   
   def full?
-    @board. {|space| space == " "}
+    @board.include?(" ")
   end
   
   def draw?
