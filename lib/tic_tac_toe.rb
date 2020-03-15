@@ -79,8 +79,7 @@ class TicTacToe
         o_spaces << i
       end
     end
-    puts o_spaces
-    puts x_spaces
+    binding.pry
   end
   
 
